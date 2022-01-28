@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: products-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: products-svc
+  template:
+    metadata:
+      labels:
+        app: products-svc
+    spec:
+      containers:
+        - name: products-svc
+          image: prodigi_test/products-svc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: post-srv
+spec:
+  selector:
+    app: post
+  ports:
+    - name: post
+      protocol: TCP
+      port: 3333
+      targetPort: 3333

@@ -1,10 +1,12 @@
-import express from "express";
+import express, { Application, Request, Response } from "express";
 import dotenv from "dotenv";
 dotenv.config();
 import cors from "cors";
 import { db } from "./db";
+import apiRouter from "./routes";
+import { logger } from "helpers";
 
-const app = express();
+const app: Application = express();
 
 const PORT = process.env.port;
 
@@ -18,12 +20,15 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({ origin: "*" }));
 
-app.get("/", (req, res) => {
-	res.send("Hello World!");
+app.use("/api", apiRouter);
+
+app.get("/*", (req: Request, res: Response) => {
+	res.status(404).send("Not Found");
 });
 
-db.sync().then(() => {
+db.sequelize.sync({ alter: true }).then(() => {
 	app.listen(PORT, () => {
 		console.log(`Server is listening at http://localhost:${PORT}`);
+		winston.info(`Server is listening at http://localhost:${PORT}`);
 	});
 });
