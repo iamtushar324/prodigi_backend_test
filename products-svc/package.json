@@ -12,8 +12,9 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon dist/app.js"
+  		"start": "NODE_PATH=./build node build/index.js",
+    		"build": "tsc -p .",
+    		"dev": "nodemon src/index.ts"
 	},
 	"keywords": [],
 	"author": "",

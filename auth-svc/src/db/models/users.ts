@@ -5,6 +5,7 @@ export interface UserAttributes {
 	name: string;
 	email: string;
 	password: string;
+	refreshToken: string;
 	createdAt?: Date;
 	updatedAt?: Date;
 }
@@ -34,6 +35,10 @@ export function UserFactory(sequelize: Sequelize) {
 		password: {
 			type: DataTypes.STRING,
 			defaultValue: "",
+		},
+		refreshToken: {
+			type: DataTypes.STRING,
+			defaultValue: false,
 		},
 		createdAt: {
 			type: DataTypes.DATE,

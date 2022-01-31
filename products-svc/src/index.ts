@@ -4,14 +4,14 @@ dotenv.config();
 import cors from "cors";
 import { db } from "./db";
 import apiRouter from "./routes";
-import winston from "./helpers/winston";
+import { logger } from "./helpers";
 
 const app: Application = express();
 
 const PORT = process.env.port;
 
 if (PORT === undefined) {
-	console.error("Please Provide .env file with PORT");
+	logger.error("Please Provide .env file with PORT");
 	process.exit(1);
 }
 
@@ -28,7 +28,6 @@ app.get("/*", (req: Request, res: Response) => {
 
 db.sequelize.sync({ alter: true }).then(() => {
 	app.listen(PORT, () => {
-		console.log(`Server is listening at http://localhost:${PORT}`);
-		winston.info(`Server is listening at http://localhost:${PORT}`);
+		logger.info(`Server is listening at http://localhost:${PORT}`);
 	});
 });

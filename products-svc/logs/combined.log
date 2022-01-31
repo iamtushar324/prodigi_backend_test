@@ -31,3 +31,56 @@
 {"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
 {"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
 {"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"error","name":"SequelizeDatabaseError","original":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"parameters":["test","string","string","string","number","number",true,false,0,"string","2022-01-31 08:42:26","2022-01-31 08:42:26"],"sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);","sqlMessage":"Incorrect integer value: 'number' for column `Products_Svc_DB`.`products`.`price` at row 1","sqlState":"22007"},"parameters":["test","string","string","string","number","number",true,false,0,"string","2022-01-31 08:42:26","2022-01-31 08:42:26"],"parent":{"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"parameters":["test","string","string","string","number","number",true,false,0,"string","2022-01-31 08:42:26","2022-01-31 08:42:26"],"sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);","sqlMessage":"Incorrect integer value: 'number' for column `Products_Svc_DB`.`products`.`price` at row 1","sqlState":"22007"},"service":"user-service","sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"error","name":"SequelizeDatabaseError","original":{"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sql":"SELECT `id`, `title`, `description`, `brand`, `type`, `price`, `discount`, `thumbnail` FROM `products` AS `products` LIMIT NaN, 10;","sqlMessage":"Undeclared variable: NaN","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sql":"SELECT `id`, `title`, `description`, `brand`, `type`, `price`, `discount`, `thumbnail` FROM `products` AS `products` LIMIT NaN, 10;","sqlMessage":"Undeclared variable: NaN","sqlState":"42000"},"service":"user-service","sql":"SELECT `id`, `title`, `description`, `brand`, `type`, `price`, `discount`, `thumbnail` FROM `products` AS `products` LIMIT NaN, 10;"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":[],"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"errors":[{"instance":{"active":true,"brand":"nike","createdAt":"2022-01-31T09:27:01.193Z","description":"string","discount":"42","id":null,"isDeleted":false,"price":"420","thumbnail":"string","title":"bhardwaj","type":"string","updatedAt":"2022-01-31T09:27:01.193Z","viewCount":0},"message":"title must be unique","origin":"DB","path":"title","type":"unique violation","validatorArgs":[],"validatorKey":"not_unique","validatorName":null,"value":"bhardwaj"}],"fields":{"title":"bhardwaj"},"level":"error","name":"SequelizeUniqueConstraintError","original":{"code":"ER_DUP_ENTRY","errno":1062,"parameters":["bhardwaj","string","nike","string","420","42",true,false,0,"string","2022-01-31 09:27:01","2022-01-31 09:27:01"],"sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);","sqlMessage":"Duplicate entry 'bhardwaj' for key 'title'","sqlState":"23000"},"parent":{"code":"ER_DUP_ENTRY","errno":1062,"parameters":["bhardwaj","string","nike","string","420","42",true,false,0,"string","2022-01-31 09:27:01","2022-01-31 09:27:01"],"sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);","sqlMessage":"Duplicate entry 'bhardwaj' for key 'title'","sqlState":"23000"},"service":"user-service","sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"errors":[{"instance":{"active":true,"brand":"nike","createdAt":"2022-01-31T10:48:28.662Z","description":"string","discount":"42","id":null,"isDeleted":false,"price":"420","thumbnail":"string","title":"bhardwasdfj","type":"string","updatedAt":"2022-01-31T10:48:28.662Z","viewCount":0},"message":"title must be unique","origin":"DB","path":"title","type":"unique violation","validatorArgs":[],"validatorKey":"not_unique","validatorName":null,"value":"bhardwasdfj"}],"fields":{"title":"bhardwasdfj"},"level":"error","name":"SequelizeUniqueConstraintError","original":{"code":"ER_DUP_ENTRY","errno":1062,"parameters":["bhardwasdfj","string","nike","string","420","42",true,false,0,"string","2022-01-31 10:48:28","2022-01-31 10:48:28"],"sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);","sqlMessage":"Duplicate entry 'bhardwasdfj' for key 'title'","sqlState":"23000"},"parent":{"code":"ER_DUP_ENTRY","errno":1062,"parameters":["bhardwasdfj","string","nike","string","420","42",true,false,0,"string","2022-01-31 10:48:28","2022-01-31 10:48:28"],"sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);","sqlMessage":"Duplicate entry 'bhardwasdfj' for key 'title'","sqlState":"23000"},"service":"user-service","sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);"}

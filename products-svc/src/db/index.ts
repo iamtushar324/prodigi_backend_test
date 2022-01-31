@@ -1,9 +1,9 @@
 import { Sequelize } from "sequelize";
-import { UserFactory, UserStatic } from "./models/users";
+import { ProductFactory, ProductStatic } from "./models/products";
 
 export interface DB {
 	sequelize: Sequelize;
-	User: UserStatic;
+	Products: ProductStatic;
 }
 
 const dbInstance = new Sequelize({
@@ -14,9 +14,9 @@ const dbInstance = new Sequelize({
 	password: process.env.DB_USER_PASSWORD,
 });
 
-const User = UserFactory(dbInstance);
+const Products = ProductFactory(dbInstance);
 
 export const db: DB = {
 	sequelize: dbInstance,
-	User,
+	Products,
 };

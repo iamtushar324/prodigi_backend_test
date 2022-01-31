@@ -10,5 +10,5 @@
 		"baseUrl": "src"
 	},
 	"lib": ["es2015"],
-	"include": ["src/**/*", "index.ts", "db"]
+	"include": ["src/**/*", "index.ts", "db", "../auth-svc/src/services/user-svc.ts", "../auth-svc/src/types/users.ts", "../auth-svc/src/controllers/user-con.ts", "../auth-svc/src/helpers/winston.ts", "../auth-svc/src/db/models/users.ts"]
 }

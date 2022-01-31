@@ -10,13 +10,13 @@ export function authCheck(req: Request, res: Response, next: Function) {
 
 	jwt.verify(
 		token,
-		process.env.TOKEN_SECRET as string,
+		process.env.JWT_TOKEN_SECRET as string,
 		(err: any, user: any) => {
 			console.log(err);
 
 			if (err) return res.sendStatus(403);
 
-			req.user = user;
+			res.locals.user = user;
 
 			next();
 		}

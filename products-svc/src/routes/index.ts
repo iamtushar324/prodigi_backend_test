@@ -1,7 +1,16 @@
 import { Router } from "express";
-import { getAllProducts } from "../controllers/products-con";
+import { authCheck } from "../middlewares";
+import {
+	createNewProduct,
+	getAllProducts,
+	getProductsBySearch,
+} from "../controllers/products-con";
 const route = Router();
 
-route.post("/getAllProducts", getAllProducts);
+route.get("/getAllProducts", getAllProducts);
+route.get("/getProductsBySearch", getProductsBySearch);
+
+//Todo , Temp Route remove before production
+route.post("/createProduct", authCheck, createNewProduct);
 
 export default route;
