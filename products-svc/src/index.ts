@@ -5,6 +5,7 @@ import cors from "cors";
 import { db } from "./db";
 import apiRouter from "./routes";
 import { logger } from "./helpers";
+import kafkaInit from "./helpers/kafkaInit";
 
 const app: Application = express();
 
@@ -27,7 +28,9 @@ app.get("/*", (req: Request, res: Response) => {
 });
 
 db.sequelize.sync({ alter: true }).then(() => {
+	kafkaInit();
 	app.listen(PORT, () => {
 		logger.info(`Server is listening at http://localhost:${PORT}`);
 	});
 });
+

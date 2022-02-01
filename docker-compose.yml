@@ -14,8 +14,6 @@ services:
     ports:
       - '5400:5400'
     command: npm run dev
-
-services:
   db:
     image: mariadb
     restart: always

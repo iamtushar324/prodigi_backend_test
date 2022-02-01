@@ -1,8 +1,10 @@
-import express from "express";
+import express, { Request, Response } from "express";
 import dotenv from "dotenv";
 dotenv.config();
 import cors from "cors";
 import { db } from "./db";
+import kafkaInit from "./helpers/kafkaInit";
+import apiRouter from "./routes";
 
 const app = express();
 
@@ -18,12 +20,18 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({ origin: "*" }));
 
-app.get("/", (req, res) => {
-	res.send("Hello World!");
+app.use("/api", apiRouter);
+
+app.get("/*", (req: Request, res: Response) => {
+	res.status(404).send("Not Found");
 });
 
 db.sync().then(() => {
-	app.listen(PORT, () => {
-		console.log(`Server is listening at http://localhost:${PORT}`);
+	const KafkaProducer = kafkaInit();
+	KafkaProducer.on("ready", () => {
+		console.log("Kafka Producer is ready");
+		app.listen(PORT, () => {
+			console.log(`Server is listening at http://localhost:${PORT}`);
+		});
 	});
 });

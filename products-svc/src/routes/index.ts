@@ -4,7 +4,7 @@ import {
 	createNewProduct,
 	getAllProducts,
 	getProductsBySearch,
-} from "../controllers/products-con";
+} from "../controllers/productsController";
 const route = Router();
 
 route.get("/getAllProducts", getAllProducts);

@@ -16,6 +16,7 @@ export async function checkUserCredentialsAndReturnUserSvc(
 			email,
 			password,
 		},
+		attributes: ["id", "email", "role", "password", "name"],
 	});
 	if (user.email == email && user.password == password) {
 		const userDetails = {
@@ -23,6 +24,7 @@ export async function checkUserCredentialsAndReturnUserSvc(
 			email: user.email,
 			name: user.name,
 			refreshToken: null,
+			role: user.role,
 		};
 		const refreshToken = await jwt.sign(
 			userDetails,
@@ -52,7 +54,7 @@ export async function validateRefreshTokenAndReturnUserSvc(
 	const user = await db.User.findByPk(userId);
 
 	if (user.refreshToken == refreshToken) {
-		return { id: user.id, email: user.email, name: user.name };
+		return { id: user.id, email: user.email, name: user.name, role: user.role };
 	} else {
 		return false;
 	}
@@ -76,4 +78,17 @@ export async function logoutUserWithRefreshTokenSvc(refreshToken: string) {
 		logger.error(error);
 		return false;
 	}
+}
+
+export async function makeAdminSvc(userEmail: string) {
+	const arr = await db.User.update(
+		{ role: "admin" },
+		{
+			where: {
+				email: userEmail,
+			},
+		}
+	);
+	if (arr[0] == 0) return false;
+	return true;
 }

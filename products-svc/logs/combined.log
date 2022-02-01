@@ -84,3 +84,272 @@
 {"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
 {"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
 {"errors":[{"instance":{"active":true,"brand":"nike","createdAt":"2022-01-31T10:48:28.662Z","description":"string","discount":"42","id":null,"isDeleted":false,"price":"420","thumbnail":"string","title":"bhardwasdfj","type":"string","updatedAt":"2022-01-31T10:48:28.662Z","viewCount":0},"message":"title must be unique","origin":"DB","path":"title","type":"unique violation","validatorArgs":[],"validatorKey":"not_unique","validatorName":null,"value":"bhardwasdfj"}],"fields":{"title":"bhardwasdfj"},"level":"error","name":"SequelizeUniqueConstraintError","original":{"code":"ER_DUP_ENTRY","errno":1062,"parameters":["bhardwasdfj","string","nike","string","420","42",true,false,0,"string","2022-01-31 10:48:28","2022-01-31 10:48:28"],"sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);","sqlMessage":"Duplicate entry 'bhardwasdfj' for key 'title'","sqlState":"23000"},"parent":{"code":"ER_DUP_ENTRY","errno":1062,"parameters":["bhardwasdfj","string","nike","string","420","42",true,false,0,"string","2022-01-31 10:48:28","2022-01-31 10:48:28"],"sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);","sqlMessage":"Duplicate entry 'bhardwasdfj' for key 'title'","sqlState":"23000"},"service":"user-service","sql":"INSERT INTO `products` (`id`,`title`,`description`,`brand`,`type`,`price`,`discount`,`active`,`isDeleted`,`viewCount`,`thumbnail`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":2,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":3,"key":null,"offset":2,"partition":0,"topic":"test","value":"hi"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":4,"key":null,"offset":3,"partition":0,"topic":"test","value":""},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":5,"key":null,"offset":4,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":6,"key":null,"offset":5,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":7,"key":null,"offset":6,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":8,"key":null,"offset":7,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":9,"key":null,"offset":8,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":10,"key":null,"offset":9,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":11,"key":null,"offset":10,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":12,"key":null,"offset":11,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":13,"key":null,"offset":12,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":13,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":14,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":2,"partition":0,"topic":"test","value":"hi"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":3,"partition":0,"topic":"test","value":""},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":4,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":5,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":6,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":7,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":8,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":9,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":10,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":11,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":12,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":13,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":14,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":2,"partition":0,"topic":"test","value":"hi"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":3,"partition":0,"topic":"test","value":""},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":4,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":5,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":6,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":7,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":8,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":9,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":10,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":11,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":12,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":13,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":14,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":2,"partition":0,"topic":"test","value":"hi"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":3,"partition":0,"topic":"test","value":""},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":4,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":5,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":6,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":7,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":8,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":9,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":10,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":11,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":12,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":13,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":14,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":2,"partition":0,"topic":"test","value":"hi"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":3,"partition":0,"topic":"test","value":""},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":4,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":5,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":6,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":7,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":8,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":9,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":10,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":11,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":12,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":13,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":14,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":2,"partition":0,"topic":"test","value":"hi"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":3,"partition":0,"topic":"test","value":""},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":4,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":5,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":6,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":7,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":8,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":9,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":10,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":11,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":12,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":13,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":14,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":3,"key":null,"offset":0,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":3,"key":null,"offset":1,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":3,"key":null,"offset":2,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":2,"partition":0,"topic":"test","value":"hi"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":3,"partition":0,"topic":"test","value":""},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":4,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":5,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":6,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":7,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":8,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":9,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":10,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":11,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":12,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":13,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":14,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":3,"key":null,"offset":0,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":3,"key":null,"offset":1,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":3,"key":null,"offset":2,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":4,"key":null,"offset":3,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":5,"key":null,"offset":4,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":6,"key":null,"offset":5,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":2,"partition":0,"topic":"test","value":"hi"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":3,"partition":0,"topic":"test","value":""},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":4,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":5,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":6,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":7,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":8,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":9,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":10,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":11,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":12,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":13,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":14,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":6,"key":null,"offset":0,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":6,"key":null,"offset":1,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":6,"key":null,"offset":2,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":6,"key":null,"offset":3,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":6,"key":null,"offset":4,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":6,"key":null,"offset":5,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":7,"key":null,"offset":6,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":8,"key":null,"offset":7,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":9,"key":null,"offset":8,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":10,"key":null,"offset":9,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":11,"key":null,"offset":10,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":12,"key":null,"offset":11,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":13,"key":null,"offset":12,"partition":0,"topic":"create-product","value":"{\"title\":\"bhardwasdfj\",\"description\":\"string\",\"brand\":\"nike\",\"type\":\"string\",\"price\":\"420\",\"discount\":\"42\",\"thumbnail\":\"string\"}"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":2,"partition":0,"topic":"test","value":"hi"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":3,"partition":0,"topic":"test","value":""},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":4,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":5,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":6,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":7,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":8,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":9,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":10,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":11,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":12,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":13,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":14,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":0,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":1,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":2,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":3,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":4,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":5,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":6,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":7,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":8,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":9,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":10,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":11,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":12,"partition":0,"topic":"create-product","value":"{\"title\":\"bhardwasdfj\",\"description\":\"string\",\"brand\":\"nike\",\"type\":\"string\",\"price\":\"420\",\"discount\":\"42\",\"thumbnail\":\"string\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":14,"key":null,"offset":13,"partition":0,"topic":"create-product","value":"{\"title\":\"bhardwasdfj\",\"description\":\"string\",\"brand\":\"nike\",\"type\":\"string\",\"price\":\"420\",\"discount\":\"42\",\"thumbnail\":\"string\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":14,"partition":0,"topic":"create-product","value":"{\"title\":\"bhardwasdfj\",\"description\":\"string\",\"brand\":\"nike\",\"type\":\"string\",\"price\":\"420\",\"discount\":\"42\",\"thumbnail\":\"string\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":15,"partition":0,"topic":"create-product","value":"{\"title\":\"bhardwasdfj\",\"description\":\"string\",\"brand\":\"nike\",\"type\":\"string\",\"price\":\"420\",\"discount\":\"42\",\"thumbnail\":\"string\"}"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":1,"partition":0,"topic":"test","value":"asdfsadf"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":2,"partition":0,"topic":"test","value":"hi"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":3,"partition":0,"topic":"test","value":""},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":4,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":5,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":6,"partition":0,"topic":"test","value":"{\"test\":\"testing\",\"createProduct\":\"create-product\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":7,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":8,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":9,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":10,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":11,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":12,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":13,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":14,"partition":0,"topic":"test","value":"{\"topic\":\"test\",\"messages\":\"test\",\"test\":34}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":0,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":1,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":2,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":3,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":4,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":5,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":6,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":7,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":8,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":9,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":10,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":11,"partition":0,"topic":"create-product","value":"[object Object]"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":12,"partition":0,"topic":"create-product","value":"{\"title\":\"bhardwasdfj\",\"description\":\"string\",\"brand\":\"nike\",\"type\":\"string\",\"price\":\"420\",\"discount\":\"42\",\"thumbnail\":\"string\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":13,"partition":0,"topic":"create-product","value":"{\"title\":\"bhardwasdfj\",\"description\":\"string\",\"brand\":\"nike\",\"type\":\"string\",\"price\":\"420\",\"discount\":\"42\",\"thumbnail\":\"string\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":14,"partition":0,"topic":"create-product","value":"{\"title\":\"bhardwasdfj\",\"description\":\"string\",\"brand\":\"nike\",\"type\":\"string\",\"price\":\"420\",\"discount\":\"42\",\"thumbnail\":\"string\"}"},"service":"user-service"}
+{"level":"info","message":{"highWaterOffset":16,"key":null,"offset":15,"partition":0,"topic":"create-product","value":"{\"title\":\"bhardwasdfj\",\"description\":\"string\",\"brand\":\"nike\",\"type\":\"string\",\"price\":\"420\",\"discount\":\"42\",\"thumbnail\":\"string\"}"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":15,"key":null,"offset":0,"partition":0,"topic":"test","value":"asdf"},"service":"user-service"}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"error","message":"The topic(s) test,create-product do not exist","service":"user-service","topics":["test","create-product"]}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"error","message":"The topic(s) test,create-product do not exist","service":"user-service","topics":["test","create-product"]}
+{"level":"info","message":"Server is listening at http://localhost:5400","service":"user-service"}
+{"level":"info","message":{"highWaterOffset":1,"key":null,"offset":0,"partition":0,"topic":"create-product","value":"{\"title\":\"bhardwasdfj\",\"description\":\"string\",\"brand\":\"nike\",\"type\":\"string\",\"price\":\"420\",\"discount\":\"42\",\"thumbnail\":\"string\"}"},"service":"user-service"}
+{"level":"error","message":"Error creating product  from event value :- \"{\\\"title\\\":\\\"bhardwasdfj\\\",\\\"description\\\":\\\"string\\\",\\\"brand\\\":\\\"nike\\\",\\\"type\\\":\\\"string\\\",\\\"price\\\":\\\"420\\\",\\\"discount\\\":\\\"42\\\",\\\"thumbnail\\\":\\\"string\\\"}\"","service":"user-service"}

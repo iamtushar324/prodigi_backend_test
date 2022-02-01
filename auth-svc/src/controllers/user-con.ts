@@ -5,7 +5,9 @@ import {
 	checkUserCredentialsAndReturnUserSvc,
 	validateRefreshTokenAndReturnUserSvc,
 	logoutUserWithRefreshTokenSvc,
+	makeAdminSvc,
 } from "../services/user-svc";
+import { logger } from "../helpers";
 const jwt = require("jsonwebtoken");
 
 export async function registerNewUserController(
@@ -34,7 +36,7 @@ export async function registerNewUserController(
 			.status(200)
 			.send({ message: "User Created Successfully", id: newUser.id });
 	} catch (error) {
-		console.log(error);
+		logger.error(error);
 		return res.status(500).send("Error creating user");
 	}
 }
@@ -66,7 +68,7 @@ export async function loginUserController(
 			refreshToken: user.refreshToken,
 		});
 	} catch (error) {
-		console.log(error);
+		logger.error(error);
 		return res.status(500).send("Error logging in user");
 	}
 }
@@ -99,7 +101,7 @@ export async function getAccessTokenFromRefreshTokenController(
 			refreshToken: refreshToken,
 		});
 	} catch (error) {
-		console.log(error);
+		logger.error(error);
 		return res.status(500).send("Error logging in user");
 	}
 }
@@ -121,7 +123,21 @@ export async function logoutUserController(
 			message: "User Logged out Successfully",
 		});
 	} catch (error) {
-		console.log(error);
+		logger.error(error);
 		return res.status(500).send("Error logging out user");
+	}
+}
+export async function makeAdminController(
+	req: Request,
+	res: Response
+): Promise<any> {
+	try {
+		const userId = req.body.userEmail;
+		const user = await makeAdminSvc(userId);
+		if (!user) return res.status(500).send("Error making user admin");
+		return res.status(200).send({ message: "User made admin successfully" });
+	} catch (err) {
+		logger.error(err);
+		return res.status(500).send("Error making user admin");
 	}
 }

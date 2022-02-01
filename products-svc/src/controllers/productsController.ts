@@ -4,7 +4,7 @@ import {
 	createNewProductSvc,
 	getAllProductsSvc,
 	getProductsBySearchSvc,
-} from "../services/product-svc";
+} from "../services/productSvc";
 import { logger } from "../helpers";
 
 export async function getAllProducts(
